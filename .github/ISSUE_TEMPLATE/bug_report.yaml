@@ -68,7 +68,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-   - type: dropdown
+  - type: dropdown
     id: environment
     attributes:
       label: Which environment are you seeing the problem in?

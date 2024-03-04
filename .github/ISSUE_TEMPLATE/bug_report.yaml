@@ -1,5 +1,5 @@
 name: Bug report
-description: Technical issue with the Magento 2 core components
+description: Issues Template
 body:
   - type: markdown
     attributes:

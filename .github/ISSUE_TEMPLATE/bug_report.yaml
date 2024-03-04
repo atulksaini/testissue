@@ -37,6 +37,8 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+     validations:
+      required: true
   - type: dropdown
     id: environment
     attributes:
@@ -47,6 +49,8 @@ body:
         - Dev
         - UAT
         - Production
+     Validations:
+      required: true
   - type: textarea
     attributes:
       label: Expected result

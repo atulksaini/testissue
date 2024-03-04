@@ -27,6 +27,26 @@ body:
           4. Open mini shopping cart and click “Proceed to Checkout”.
     validations:
       required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Which environment are you seeing the problem in?
+      multiple: true
+      options:
+        - Local
+        - Dev
+        - UAT
+        - Production
   - type: textarea
     attributes:
       label: Expected result
@@ -58,26 +78,6 @@ body:
       label: Release note
       description: |
         Help us to provide meaningful release notes to the community.
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: dropdown
-    id: environment
-    attributes:
-      label: Which environment are you seeing the problem in?
-      multiple: true
-      options:
-        - Local
-        - Dev
-        - UAT
-        - Production
   - type: checkboxes
     attributes:
       label: Triage and priority

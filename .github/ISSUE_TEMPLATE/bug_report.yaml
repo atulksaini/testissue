@@ -12,7 +12,7 @@ body:
         Describe your environment.
         Provide all the details that will help us to reproduce the bug.
       value: |
-        - Magento version
+        - Pronto version
         - Anything else that would help a developer reproduce the bug
   - type: textarea
     attributes:

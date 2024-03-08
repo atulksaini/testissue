@@ -93,4 +93,3 @@ body:
         - label: 'Severity: **High** _- Issues that significantly impact core functionality or user experience, such as broken links, critical UI bugs, or payment processing failures._'
         - label: 'Severity: **Medium** _- Issues that affect non-essential features or cause moderate inconvenience to users, such as minor UI inconsistencies, non-critical functionality errors, or performance degradation._'
         - label: 'Severity: **Low** _- Minor issues or cosmetic defects that do not significantly affect functionality or user experience, such as typos, minor styling inconsistencies, or non-functional buttons._'
-        - label: 'Severity: **Enhancement** _- Suggestions for improvements or new features that could enhance the website's usability, performance, or user engagement, but are not critical for its basic functionality._'
